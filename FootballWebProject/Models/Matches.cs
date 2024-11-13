@@ -8,15 +8,19 @@ namespace FootballWebProject.Models
         [Key]
         public int Id { get; set; }
         public DateTime Date { get; set; }
+
         [ForeignKey("GuestTeam")]
         public int GuestTeamId { get; set; }
+        public Teams GuestTeam { get; set; }
+
         [ForeignKey("HomeTeam")]
         public int HomeTeamId { get; set; }
+        public Teams HomeTeam { get; set; }
+
         [Required]
-        public int GuestScore { get; set; } //гостьовий рахунок властивість
+        public int GuestScore { get; set; }
+
         [Required]
-        public int HomeScore { get; set; } //домашній рахунок властивість
-        public Teams GuestTeams { get; set; }
-        public Teams HomeTeams { get; set; }
+        public int HomeScore { get; set; }
     }
 }

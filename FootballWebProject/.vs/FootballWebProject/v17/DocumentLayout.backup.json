@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "D:\\Project Api\\OnlineFootbollWebApp\\FootballWebProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72097437-27D2-4AF8-92FD-F9D2842B4A3C}|FootballWebProject.csproj|d:\\project api\\onlinefootbollwebapp\\footballwebproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{72097437-27D2-4AF8-92FD-F9D2842B4A3C}|FootballWebProject.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Project Api\\OnlineFootbollWebApp\\FootballWebProject\\Migrations\\20241113105852_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241113105852_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72097437-27D2-4AF8-92FD-F9D2842B4A3C}|FootballWebProject.csproj|d:\\project api\\onlinefootbollwebapp\\footballwebproject\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{72097437-27D2-4AF8-92FD-F9D2842B4A3C}|FootballWebProject.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72097437-27D2-4AF8-92FD-F9D2842B4A3C}|FootballWebProject.csproj|d:\\project api\\onlinefootbollwebapp\\footballwebproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72097437-27D2-4AF8-92FD-F9D2842B4A3C}|FootballWebProject.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72097437-27D2-4AF8-92FD-F9D2842B4A3C}|FootballWebProject.csproj|d:\\project api\\onlinefootbollwebapp\\footballwebproject\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{72097437-27D2-4AF8-92FD-F9D2842B4A3C}|FootballWebProject.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72097437-27D2-4AF8-92FD-F9D2842B4A3C}|FootballWebProject.csproj|d:\\project api\\onlinefootbollwebapp\\footballwebproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72097437-27D2-4AF8-92FD-F9D2842B4A3C}|FootballWebProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72097437-27D2-4AF8-92FD-F9D2842B4A3C}|FootballWebProject.csproj|d:\\project api\\onlinefootbollwebapp\\footballwebproject\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72097437-27D2-4AF8-92FD-F9D2842B4A3C}|FootballWebProject.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72097437-27D2-4AF8-92FD-F9D2842B4A3C}|FootballWebProject.csproj|d:\\project api\\onlinefootbollwebapp\\footballwebproject\\models\\teams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72097437-27D2-4AF8-92FD-F9D2842B4A3C}|FootballWebProject.csproj|solutionrelative:models\\teams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\Project Api\\OnlineFootbollWebApp\\FootballWebProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\Project Api\\OnlineFootbollWebApp\\FootballWebProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T17:54:12.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Project Api\\OnlineFootbollWebApp\\FootballWebProject\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Project Api\\OnlineFootbollWebApp\\FootballWebProject\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T17:52:14.43Z",
+              "Title": "20241113105852_1.cs",
+              "DocumentMoniker": "D:\\Project Api\\OnlineFootbollWebApp\\FootballWebProject\\Migrations\\20241113105852_1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241113105852_1.cs",
+              "ToolTip": "D:\\Project Api\\OnlineFootbollWebApp\\FootballWebProject\\Migrations\\20241113105852_1.cs",
+              "RelativeToolTip": "Migrations\\20241113105852_1.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAgwEwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T10:58:52.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Project Api\\OnlineFootbollWebApp\\FootballWebProject\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Project Api\\OnlineFootbollWebApp\\FootballWebProject\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "DocumentIndex": 1,
+              "Title": "Teams.cs",
+              "DocumentMoniker": "D:\\Project Api\\OnlineFootbollWebApp\\FootballWebProject\\Models\\Teams.cs",
+              "RelativeDocumentMoniker": "Models\\Teams.cs",
+              "ToolTip": "D:\\Project Api\\OnlineFootbollWebApp\\FootballWebProject\\Models\\Teams.cs",
+              "RelativeToolTip": "Models\\Teams.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T17:52:05.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\Project Api\\OnlineFootbollWebApp\\FootballWebProject\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\Project Api\\OnlineFootbollWebApp\\FootballWebProject\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T17:50:16.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\Project Api\\OnlineFootbollWebApp\\FootballWebProject\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\Project Api\\OnlineFootbollWebApp\\FootballWebProject\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T17:49:40.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Project Api\\OnlineFootbollWebApp\\FootballWebProject\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Project Api\\OnlineFootbollWebApp\\FootballWebProject\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T17:43:58.341Z",
+              "WhenOpened": "2024-11-13T10:57:54.056Z",
               "EditorCaption": ""
             }
           ]
