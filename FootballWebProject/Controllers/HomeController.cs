@@ -1,21 +1,43 @@
+using FootballWebProject.Data;
 using FootballWebProject.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace FootballWebProject.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ApplicationDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ApplicationDbContext context)
         {
-            _logger = logger;
+            _context = context;
         }
-
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            //список матчів для виводу
+            var matches = await _context.Matches
+                .Include(m => m.HomeTeam)
+                .Include(m => m.GuestTeam)
+                .OrderByDescending(m => m.Date)
+                .ToListAsync();
+            //список команди для виводу
+            var teams = _context.Teams.ToList();
+            //список гравців з команди
+            var players = _context.Players.ToList();
+            //список тренерів з команд
+            var trainers = _context.Trainers.ToList();
+            //передача параметрів
+            var viewModel = new OutputViewsFootballTeam
+            {
+                Matches = matches,
+                Teams = teams,
+                Players = players,
+                Trainers = trainers,
+            };
+
+            return View(viewModel);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

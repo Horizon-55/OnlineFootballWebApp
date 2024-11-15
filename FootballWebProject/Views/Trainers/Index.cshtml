@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Trainers>
+<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap" /></svg>
+        <span class="fs-4">Football Site</span>
+    </a>
+
+    <ul class="nav nav-pills">
+        <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Index">На головну</a>
+        <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Matches" asp-action="Index">Матчи</a></li>
+        <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Players" asp-action="Index">Гравці</a></li>
+        <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Teams" asp-action="Index">Команди</a></li>
+        <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Trainers" asp-action="Index">Тренери</a></li>
+    </ul>
+</header>
+<h1>Тренери</h1>
+<p>
+    <a class="btn btn-primary" asp-action="Create">Додати нового</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ім'я</th>
+            <th>Прізвище</th>
+            <th>Команда</th>
+            <th>Дія</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var trainer in Model)
+        {
+            <tr>
+                <td>@trainer.Name</td>
+                <td>@trainer.Surname</td>
+                <td>@trainer.Team.Name</td>
+                <td>
+                    <a class="btn btn-secondary" asp-action="Edit" asp-route-id="@trainer.Id">Редагувати</a> |
+                    <a class="btn btn-light" asp-action="Details" asp-route-id="@trainer.Id">Деталі</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@trainer.Id">Видалити</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

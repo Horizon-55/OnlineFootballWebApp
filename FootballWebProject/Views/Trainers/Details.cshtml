@@ -1,0 +1,45 @@
+﻿@model Trainers
+<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap" /></svg>
+        <span class="fs-4">Football Site</span>
+    </a>
+
+    <ul class="nav nav-pills">
+        <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Index">На головну</a>
+        <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Matches" asp-action="Index">Матчи</a></li>
+        <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Players" asp-action="Index">Гравці</a></li>
+        <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Teams" asp-action="Index">Команди</a></li>
+        <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Trainers" asp-action="Index">Тренери</a></li>
+    </ul>
+</header>
+<h1>Деталі</h1>
+
+<div>
+    <h4>Тренер</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Ім'я
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            Прізвище
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Surname)
+        </dd>
+        <dt class="col-sm-2">
+            Команда
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Team.Name)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-secondary" asp-action="Edit" asp-route-id="@Model.Id">Редагувати</a> |
+    <a class="btn btn-success" asp-action="Index">Повернутися до списку</a>
+</div>

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FootballWebProject.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241113105852_1")]
-    partial class _1
+    [Migration("20241113173400_SecondTables")]
+    partial class SecondTables
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -99,14 +99,6 @@ namespace FootballWebProject.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
-                    b.Property<string>("Information")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Logo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -145,13 +137,13 @@ namespace FootballWebProject.Migrations
             modelBuilder.Entity("FootballWebProject.Models.Matches", b =>
                 {
                     b.HasOne("FootballWebProject.Models.Teams", "GuestTeam")
-                        .WithMany("MatchesGuest")
+                        .WithMany("MatchesAsGuest")
                         .HasForeignKey("GuestTeamId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("FootballWebProject.Models.Teams", "HomeTeam")
-                        .WithMany("MatchesHome")
+                        .WithMany("MatchesAsHome")
                         .HasForeignKey("HomeTeamId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
@@ -185,9 +177,9 @@ namespace FootballWebProject.Migrations
 
             modelBuilder.Entity("FootballWebProject.Models.Teams", b =>
                 {
-                    b.Navigation("MatchesGuest");
+                    b.Navigation("MatchesAsGuest");
 
-                    b.Navigation("MatchesHome");
+                    b.Navigation("MatchesAsHome");
 
                     b.Navigation("Players");
 

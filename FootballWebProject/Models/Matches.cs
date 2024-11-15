@@ -7,6 +7,7 @@ namespace FootballWebProject.Models
     {
         [Key]
         public int Id { get; set; }
+        [Required(ErrorMessage ="Поле дата є обов'язковим для введення!")]
         public DateTime Date { get; set; }
 
         [ForeignKey("GuestTeam")]
@@ -17,10 +18,10 @@ namespace FootballWebProject.Models
         public int HomeTeamId { get; set; }
         public Teams HomeTeam { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Поле рахунок для гостьової команди є обов'язковим для введення!")]
         public int GuestScore { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Поле рахунок для домашньої команди є обов'язковим для введення!")]
         public int HomeScore { get; set; }
     }
 }

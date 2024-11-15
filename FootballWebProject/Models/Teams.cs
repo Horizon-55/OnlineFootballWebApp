@@ -7,13 +7,11 @@ namespace FootballWebProject.Models
     {
         [Key]
         public int ID { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Поле Ім'я команди є обов'язковим")]
         public string Name { get; set; }
-        public string Logo { get; set; } // Assuming this is a path or URL to the logo
-        public string Information { get; set; }
         public ICollection<Players> Players { get; set; }
         public ICollection<Trainers> Trainers { get; set; }
-        public ICollection<Matches> MatchesGuest { get; set; }
-        public ICollection<Matches> MatchesHome { get; set; }
+        public ICollection<Matches> MatchesAsGuest { get; set; }
+        public ICollection<Matches> MatchesAsHome { get; set; }
     }
 }
